@@ -58,7 +58,7 @@ void setTitle(char text[]){
 }
 
 void setHelp(char text[]){
-  strcmp(help,text);
+  strcpy(help,text);
 }
 
 void printHelp(){
